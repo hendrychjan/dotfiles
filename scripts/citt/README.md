@@ -20,7 +20,7 @@ sudo chmod +x ./citt.sh
 ```
 
 > **working_dir** 
-> - an absolute (**do not use relative, like "../something") path to where temporary png file will be created during the script execution
+> - an absolute (**do not use relative**, like "../something") path to where temporary png file will be created during the script execution
 > - this has to be an empty folder with just the ```citt.sh``` script, otherwise it won't work
 > - also, **do not** put a slash at the end (example: /path -> correct; /path/ -> illegal!!)
 
