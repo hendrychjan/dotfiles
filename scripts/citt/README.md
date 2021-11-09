@@ -3,10 +3,8 @@
 
 ### Installation
 - first, install following dependencies with package manager of your choice:
-```
-flameshot
-gocr
-```
+  - **[flameshot](https://flameshot.org/guide/installation/installation-linux/)**
+  - **gocr** (```sudo apt install gocr``` for Ubuntu based, or ```sudo pacman -Sy gocr``` for Arch based etc.)
 - then, download the ```citt.sh``` file from here and put it anywhere you want
 - make it executable:
 ```
@@ -32,4 +30,4 @@ sudo chmod +x ./citt.sh
 2. choose the **save** option in flameshot
 3. image is analyzed, text put into your clipboard - use it with ```ctrl+v```
 
-> I encourage you to first try this script out in terminal. Then you can bind it to a keyboard shortcut ( ͡~ ͜ʖ ͡° )
+> I encourage you to first try this script out in terminal. Then you can bind it to a keyboard shortcut or create an alias in .bashrc ૮ ˆﻌˆ ა
